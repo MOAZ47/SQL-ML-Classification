@@ -135,3 +135,19 @@ GO
 
 The purpose of this repository is to demonstrate how to set up a SQL database for the Iris dataset, train a machine learning model using SQL Server's capabilities, and predict species based on the trained model. It showcases the integration of SQL and Python for machine learning tasks within a database environment.
 
+## Data Used
+
+The Iris dataset can be found [here](https://archive.ics.uci.edu/dataset/53/iris)
+
+The Iris dataset is a classic dataset in the field of machine learning and statistics. It was introduced by the British statistician and biologist Ronald Fisher in his 1936 paper "The Use of Multiple Measurements in Taxonomic Problems" as an example of linear discriminant analysis. The dataset consists of 150 samples of iris flowers, each with four features (attributes) describing the length and width of the sepals and petals, as well as their corresponding species classification.
+
+Features
+- Sepal Length: Length of the sepal (in centimeters).
+- Sepal Width: Width of the sepal (in centimeters).
+- Petal Length: Length of the petal (in centimeters).
+- Petal Width: Width of the petal (in centimeters).
+Target Variable
+- Species: The species of iris flowers, which are categorized into three classes:
+-- Iris Setosa
+-- Iris Versicolor
+-- Iris Virginica
