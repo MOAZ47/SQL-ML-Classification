@@ -135,6 +135,20 @@ GO
 
 The purpose of this repository is to demonstrate how to set up a SQL database for the Iris dataset, train a machine learning model using SQL Server's capabilities, and predict species based on the trained model. It showcases the integration of SQL and Python for machine learning tasks within a database environment.
 
+## Overview of the Random Forest Classifier
+
+The machine learning model used in this project is a Random Forest Classifier.
+Description:
+Random Forest: Random Forest is an ensemble learning method that operates by constructing multiple decision trees during training and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. It combines multiple decision trees and uses bagging (bootstrap aggregating) to improve the predictive accuracy and control over-fitting
+
+##Tools and Technologies Used
+1. SQL Server
+Purpose: SQL Server is used as the primary database management system (DBMS) for storing and managing the Iris dataset, trained machine learning models, and executing stored procedures for model training and predictions.
+2. Python
+Purpose: Python is used extensively for data manipulation, machine learning model training (using scikit-learn), serialization (using pickle), and integration with SQL Server via sp_execute_external_script.
+3. scikit-learn
+Purpose: scikit-learn is a popular machine learning library in Python used for training and evaluating machine learning models. In this project, scikit-learn's RandomForestClassifier is utilized for training a Random Forest model on the Iris dataset.
+
 ## Data Used
 
 The Iris dataset can be found [here](https://archive.ics.uci.edu/dataset/53/iris)
@@ -146,8 +160,8 @@ Features
 - Sepal Width: Width of the sepal (in centimeters).
 - Petal Length: Length of the petal (in centimeters).
 - Petal Width: Width of the petal (in centimeters).
-Target Variable
-- Species: The species of iris flowers, which are categorized into three classes:
-  - Iris Setosa
-  - Iris Versicolor
-  - Iris Virginica
+-Target Variable
+  - Species: The species of iris flowers, which are categorized into three classes:
+    - Iris Setosa
+    - Iris Versicolor
+    - Iris Virginica
