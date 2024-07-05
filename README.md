@@ -3,6 +3,10 @@
 
 This repository contains SQL scripts to create a database for the Iris dataset, store data, train a machine learning model using SQL Server's external script execution capabilities, and predict species based on the trained model.
 
+## Purpose
+
+The purpose of this repository is to demonstrate how to set up a SQL database for the Iris dataset, train a machine learning model using SQL Server's capabilities, and predict species based on the trained model. It showcases the integration of SQL and Python for machine learning tasks within a database environment.
+
 ## SQL Scripts Overview
 
 ### 1. Creating Database and Tables
@@ -130,10 +134,6 @@ GO
 EXECUTE predict_species 'Random Forest';
 GO
 ```
-
-## Purpose
-
-The purpose of this repository is to demonstrate how to set up a SQL database for the Iris dataset, train a machine learning model using SQL Server's capabilities, and predict species based on the trained model. It showcases the integration of SQL and Python for machine learning tasks within a database environment.
 
 ## Overview of the Random Forest Classifier
 
