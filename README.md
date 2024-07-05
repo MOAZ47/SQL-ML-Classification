@@ -148,6 +148,6 @@ Features
 - Petal Width: Width of the petal (in centimeters).
 Target Variable
 - Species: The species of iris flowers, which are categorized into three classes:
--- Iris Setosa
--- Iris Versicolor
--- Iris Virginica
+  - Iris Setosa
+  - Iris Versicolor
+  - Iris Virginica
