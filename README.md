@@ -141,13 +141,14 @@ The machine learning model used in this project is a Random Forest Classifier.
 Description:
 Random Forest: Random Forest is an ensemble learning method that operates by constructing multiple decision trees during training and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. It combines multiple decision trees and uses bagging (bootstrap aggregating) to improve the predictive accuracy and control over-fitting
 
-##Tools and Technologies Used
+## Tools and Technologies Used
+
 1. SQL Server
 Purpose: SQL Server is used as the primary database management system (DBMS) for storing and managing the Iris dataset, trained machine learning models, and executing stored procedures for model training and predictions.
 2. Python
 Purpose: Python is used extensively for data manipulation, machine learning model training (using scikit-learn), serialization (using pickle), and integration with SQL Server via sp_execute_external_script.
 3. scikit-learn
-Purpose: scikit-learn is a popular machine learning library in Python used for training and evaluating machine learning models. In this project, scikit-learn's RandomForestClassifier is utilized for training a Random Forest model on the Iris dataset.
+Purpose: scikit-learn is a popular machine learning library in Python used for training and evaluating machine learning models. This project uses scikit-learn's RandomForestClassifier to train a Random Forest model on the Iris dataset.
 
 ## Data Used
 
